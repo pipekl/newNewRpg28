@@ -1,9 +1,9 @@
-public class Wolf extends Enemy {
-    public Wolf() {
-        super.itemBonus = 1;
-        super.hp = 500;
-        super.damage = 25;
-        super.exp = 500;
+public class Ninja extends Enemy{
+    public Ninja() {
+        super.itemBonus = 3;
+        super.hp = 1000;
+        super.damage = 150;
+        super.exp = 1200;
     }
 
     public int getItemBonus() {
@@ -16,7 +16,7 @@ public class Wolf extends Enemy {
 
     @Override
     public String toString() {
-        return "Wolf{" +
+        return "Нинзя {" +
                 "hp=" + hp +
                 ", damage=" + damage +
                 ", itemBonus=" + itemBonus +
@@ -24,4 +24,3 @@ public class Wolf extends Enemy {
                 '}';
     }
 }
-
